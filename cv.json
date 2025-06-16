@@ -53,12 +53,110 @@
     }
   ],
   "awards": [],
-  "certificates": [{
-    "name": "Certificate",
-    "date": "2021-11-07",
-    "issuer": "Company",
-    "url": "https://certificate.com"
-  }],
+  "certificates": [
+    {
+      "name": "Domesticación de Personajes Dinámicos",
+      "date": "2025-06-01",
+      "issuer": "Domestika",
+      "url": "https://www.domestika.org"
+    },
+    {
+      "name": "Curso de introducción a la Inteligencia Artificial",
+      "date": "2025-05-01",
+      "issuer": "BIG School",
+      "url": "https://www.bigschool.com"
+    },
+    {
+      "name": "Certificado Curso de Introducción a la Inteligencia Artificial - Chao Alarcón Chen",
+      "date": "2025-05-01",
+      "issuer": "BIG School",
+      "url": "https://www.bigschool.com"
+    },
+    {
+      "name": "Creación de Páginas Web con Astro",
+      "date": "2025-04-01",
+      "issuer": "OpenWebinars",
+      "url": "https://www.openwebinars.net"
+    },
+    {
+      "name": "Tailwind CSS",
+      "date": "2025-04-01",
+      "issuer": "OpenWebinars",
+      "url": "https://www.openwebinars.net"
+    },
+    {
+      "name": "Fundamentos de JavaScript",
+      "date": "2025-03-01",
+      "issuer": "OpenWebinars",
+      "url": "https://www.openwebinars.net"
+    },
+    {
+      "name": "Curso de PowerShell para principiantes",
+      "date": "2025-02-01",
+      "issuer": "OpenWebinars",
+      "url": "https://www.openwebinars.net"
+    },
+    {
+      "name": "Curso de Responsive Web Design",
+      "date": "2025-02-01",
+      "issuer": "OpenWebinars",
+      "url": "https://www.openwebinars.net"
+    },
+    {
+      "name": "Curso de SQL desde Cero",
+      "date": "2025-01-01",
+      "issuer": "OpenWebinars",
+      "url": "https://www.openwebinars.net"
+    },
+    {
+      "name": "Curso de Hacking web",
+      "date": "2024-12-01",
+      "issuer": "OpenWebinars",
+      "url": "https://www.openwebinars.net"
+    },
+    {
+      "name": "Prototipado y diseño de una App Adobe XD",
+      "date": "2024-12-01",
+      "issuer": "Adobe",
+      "url": "https://www.adobe.com"
+    },
+    {
+      "name": "Curso de maquetación web con CSS",
+      "date": "2024-11-01",
+      "issuer": "OpenWebinars",
+      "url": "https://www.openwebinars.net"
+    },
+    {
+      "name": "Curso de Desarrollo de Apps Móviles",
+      "date": "2024-10-01",
+      "issuer": "Google Digital Academy Skillshop",
+      "url": "https://skillshop.exceedlms.com"
+    },
+    {
+      "name": "Introducción to Java",
+      "date": "2024-10-01",
+      "issuer": "Sololearn",
+      "url": "https://www.sololearn.com"
+    },
+    {
+      "name": "Introduction to Programming Using HTML and CSS",
+      "date": "2024-09-01",
+      "issuer": "Sololearn",
+      "url": "https://www.sololearn.com"
+    },
+    {
+      "name": "JavaScript Intermediate",
+      "date": "2024-09-01",
+      "issuer": "Sololearn",
+      "url": "https://www.sololearn.com"
+    },
+    {
+      "name": "Certificado de estudio en campamento de escuela de animación",
+      "date": "2023-07-01",
+      "issuer": "TNUA",
+      "url": "https://w3.tnua.edu.tw/?lang=en"
+    }
+  ],
   "publications": [],
   "skills": [
     
@@ -257,15 +355,26 @@
       "endDate": "2025-06-01",
       "description": "Desarrollo de un sitio web informativo para el centro comercial Plaza Río 2, con diseño moderno y responsivo usando HTML5, CSS y Bootstrap. Navegación intuitiva, contenido actualizado sobre tiendas, servicios y eventos, optimizado para móviles y accesibilidad.",
       "highlights": ["HTML", "CSS", "JavaScript", "Bootstrap","JSON","GitKraken","GitHub"],
-      "url": "https://plazario2.netlify.app/"
+      "url": "https://plazario2.netlify.app/",
+      "github": "https://github.com/ChaoAlarcon/CentroComercial-PlazaRio2-Web"
+    },
+    {
+      "name": "OnStream Sitio Web",
+      "startDate": "2025-02-01",
+      "endDate": "2025-03-01",
+      "description": "OnStream es una landing page desarrollada con HTML, CSS y JavaScript que promociona y facilita la descarga de un APK de una aplicación gratuita, ofreciendo acceso ilimitado a películas y series. Con un diseño moderno y responsivo, con el propósito de atraer usuarios para que disfruten de una experiencia de streaming gratuita.",
+      "highlights": ["HTML", "CSS", "JavaScript","GitHub"],
+      "url": "https://onstreamweb.netlify.app/",
+      "github": "https://github.com/ChaoAlarcon/OnStream-Website"
     },
     {
       "name": "Warriors of Eazima",
-      "startDate": "",
-      "endDate": "",
-      "description": "Aventura interactiva realizada principalmente con el lenguaje Java. Juego con una interfaz gráfica simple y desarrollo narrativo de personajes.",
+      "startDate": "2025-05-04",
+      "endDate": "2025-06-08",
+      "description": "Aventura interactiva desarrollada principalmente en Java, con una interfaz gráfica sencilla y un enfoque en el desarrollo narrativo de personajes. Incorpora mejoras basadas en conocimientos avanzados, específicamente: programación orientada a objetos y conexión a bases de datos para optimizar la gestión de datos y la escalabilidad del juego.",
       "highlights": ["Java", "Canva", "SQL", "Gamma","GitKraken","GitHub"],
-      "url": "https://gamma.app/docs/WARRIORS-OF-EAZIMA-II-g2kidspg5ewqvm4"
+      "url": "https://gamma.app/docs/WARRIORS-OF-EAZIMA-II-g2kidspg5ewqvm4",
+      "github": "https://github.com/ChaoAlarcon/Elige-Tu-Propia-Aventura-II"
     }
   ]
 }
