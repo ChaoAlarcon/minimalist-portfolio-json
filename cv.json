@@ -1,275 +1,271 @@
 {
   "basics": {
-    "name": "Miguel Ángel Durán",
-    "label": "Full Stack Developer con más de 15 años de experiencia & Creador de Contenido de Programación",
-    "image": "/me.webp",
-    "email": "miduga@gmail.com",
-    "phone": "+34 688888888",
-    "url": "https://midu.dev",
-    "summary": "+15 años de experiencia como Desarrollador Web. Actualmente soy Creador de Contenido y Divulgador sobre Programación. Vivo en Barcelona, España. He trabajado en diferentes entornos: desde acelerar el desarrollo de start-ups hasta liderando equipos de empresas multinacionales.",
+    "name": "Chao An Alarcón Chen",
+    "label": "Estudiante de Desarrollo de Aplicaciones Web",
+    "image": "../public/ProfilePicture.webp",
+    "email": "chaoalarcon01@gmail.com",
+    "phone": "689 846 699",
+    "url": "https://chaoalarcon.myportfolio.com",
+    "summary": "Soy un estudiante de desarrollo de aplicaciones web con un buen manejo de diversos lenguajes de programación y programas de Adobe como Photoshop, Premiere Pro, After Effects y Lightroom. Persona creativa, positiva y comunicativa, orientada al público. Apasionado por tecnología, fotografía, diseño, viajes y deportes. Comprometido con el crecimiento personal y profesional.",
     "location": {
       "address": "",
-      "postalCode": "08820",
-      "city": "el Prat de Llobregat",
+      "postalCode": "",
+      "city": "Madrid",
       "countryCode": "ES",
-      "region": "España"
+      "region": "Comunidad de Madrid"
     },
     "profiles": [
       {
         "network": "LinkedIn",
-        "username": "midudev",
-        "url": "https://linkedin.com/in/midudev"
-      },
-      {
-        "network": "X",
-        "username": "midudev",
-        "url": "https://x.com/midudev"
+        "username": "chao-alarcón",
+        "url": "https://www.linkedin.com/in/chao-alarc%C3%B3n"
       },
       {
         "network": "GitHub",
-        "username": "midudev",
-        "url": "https://github.com/midudev"
+        "username": "chao-alarcón",
+        "url": "https://github.com/ChaoAlarcon"
+
       }
     ]
   },
   "work": [
     {
-      "name": "midudev",
-      "position": "Divulgador sobre Programación Web",
-      "url": "https://twitch.tv/midudev",
-      "startDate": "2021-01-01",
-      "endDate": null,
-      "summary": "Streamer de programación más visto en Español en Twitch. +1 millón de seguidores entre todas mis redes sociales. Reconocido por Google, Microsoft y GitHub por mi impacto en la comunidad de desarrolladores.",
-      "highlights": [
-        "Started the company"
-      ]
-    },
-    {
-      "name": "Adevinta",
-      "position": "Lead Frontend Architect",
-      "url": "https://twitch.tv/midudev",
-      "startDate": "2016-06-01",
-      "endDate": "2022-09-01",
-      "summary": "Lideré una convergencia técnica entre diferentes productos y migramos una arquitectura monolítica a otra más flexible y optimizada. Fomenté buenas prácticas y mejoras en la cultura de rendimiento, además de la entrega rápida de valor a los usuarios.",
-      "highlights": [
-        "Started the company"
-      ]
-    },
-    {
-      "name": "Hubii",
-      "position": "Senior FrontEnd Developer",
-      "startDate": "2011-03-01",
-      "endDate": "2016-05-01",
-      "summary": "Desarrollé una plataforma de noticias geolocalizadas y una API para consumir la información. Escalé los servicios para soportar la carga de más de cientos de miles de peticiones al día. Recorté los tiempos de entrega y despliegues a producción a la mitad. Colaboré con Mozilla y Telefónica para desarrollar la primera app para televisores con FirefoxOS.",
-      "highlights": [
-        "Started the company"
-      ]
+      "name": "Preply",
+      "position": "Profesor de Chino Mandarín",
+      "url": "https://preply.com",
+      "startDate": "2023-06-01",
+      "endDate": "2023-10-31",
+      "summary": "Clases particulares de chino mandarín para estudiantes de diferentes niveles.",
+      "highlights": []
     }
   ],
-  "volunteer": [{
-    "organization": "Organization",
-    "position": "Volunteer",
-    "url": "https://organization.com/",
-    "startDate": "2012-01-01",
-    "endDate": "2013-01-01",
-    "summary": "Description…",
-    "highlights": [
-      "Awarded 'Volunteer of the Month'"
-    ]
-  }],
-  "education": [{
-    "institution": "Universitat Oberta de Catalunya",
-    "url": "https://www.uoc.edu/portal/es/index.html",
-    "area": "Ingeniero de Software",
-    "studyType": "Bachelor",
-    "startDate": "2003-01-01",
-    "endDate": "2009-01-01",
-    "score": "4.0",
-    "courses": [
-      "DB1101 - Basic SQL"
-    ]
-  }],
-  "awards": [{
-    "title": "Award",
-    "date": "2014-11-01",
-    "awarder": "Company",
-    "summary": "There is no spoon."
-  }],
+  "volunteer": [],
+  "education": [
+    {
+      "institution": "Instituto Nebrija de Formación Profesional",
+      "url": "",
+      "area": "Desarrollo de Aplicaciones Web",
+      "studyType": "Ciclo Formativo de Grado Superior",
+      "startDate": "2024-09-01",
+      "endDate": null,
+      "score": "",
+      "courses": []
+    }
+  ],
+  "awards": [],
   "certificates": [{
     "name": "Certificate",
     "date": "2021-11-07",
     "issuer": "Company",
     "url": "https://certificate.com"
   }],
-  "publications": [{
-    "name": "Publication",
-    "publisher": "Company",
-    "releaseDate": "2014-10-01",
-    "url": "https://publication.com",
-    "summary": "Description…"
-  }],
+  "publications": [],
   "skills": [
-    {
-      "name": "HTML",
-      "level": "Master",
-      "keywords": [
-        "Desarrollo Web", "Frontend"
-      ]
-    },
-    {
-      "name": "CSS",
-      "level": "Master",
-      "keywords": [
-        "Desarrollo Web", "Frontend", "Diseño Responsive"
-      ]
-    },
-    {
-      "name": "JavaScript",
-      "level": "Master",
-      "keywords": [
-        "Desarrollo Web", "Frontend", "Backend", "Fullstack"
-      ]
-    },
-    {
-      "name": "Tailwind",
-      "level": "Avanzado",
-      "keywords": [
-        "Desarrollo Web", "Frontend", "CSS Framework", "Diseño Responsive"
-      ]
-    },
-    {
-      "name": "TypeScript",
-      "level": "Avanzado",
-      "keywords": [
-        "Desarrollo Web", "Frontend", "Backend", "JavaScript Superset"
-      ]
-    },
-    {
-      "name": "Node",
-      "level": "Avanzado",
-      "keywords": [
-        "Desarrollo Web", "Backend", "JavaScript", "Servidor"
-      ]
-    },
-    {
-      "name": "MySQL",
-      "level": "Avanzado",
-      "keywords": [
-        "Bases de Datos", "SQL", "Almacenamiento de Datos", "Backend"
-      ]
-    },
-    {
-      "name": "Git",
-      "level": "Avanzado",
-      "keywords": [
-        "Control de Versiones", "Colaboración", "Código Fuente"
-      ]
-    },
-    {
-      "name": "GitHub",
-      "level": "Avanzado",
-      "keywords": [
-        "Control de Versiones", "Colaboración", "Código Fuente", "Git"
-      ]
-    },
-    {
-      "name": "Next.js",
-      "level": "Avanzado",
-      "keywords": [
-        "Desarrollo Web", "Frontend", "React Framework", "SSR", "Static Generation"
-      ]
-    },
-    {
-      "name": "React",
-      "level": "Avanzado",
-      "keywords": [
-        "Desarrollo Web", "Frontend", "JavaScript Library", "UI"
-      ]
-    }
-  ],
+    
+  {
+    "name": "CSS",
+    "keywords": [
+      "Web development",
+      "Frontend",
+      "Diseño Responsive",
+      "Styling"
+    ]
+  },
+  {
+    "name": "HTML",
+    "keywords": [
+      "Web development",
+      "Frontend",
+      "Semantic markup"
+    ]
+  },
+  {
+    "name": "Java",
+    "keywords": [
+      "Backend",
+      "Object-oriented programming",
+      "Enterprise applications",
+      "Android development"
+    ]
+  },
+  {
+    "name": "JavaScript",
+    "keywords": [
+      "Web development",
+      "Frontend",
+      "Backend",
+      "Fullstack"
+    ]
+  },
+  {
+    "name": "Bootstrap",
+    "keywords": [
+      "Web development",
+      "Frontend",
+      "CSS Framework",
+      "Diseño Responsive"
+    ]
+  },
+  {
+    "name": "Tailwind",
+    "keywords": [
+      "Web development",
+      "Frontend",
+      "CSS Framework",
+      "Diseño Responsive"
+    ]
+  },
+  {
+    "name": "Astro",
+    "keywords": [
+      "Web development",
+      "Frontend",
+      "Static site generation",
+      "Fullstack"
+    ]
+  },
+  {
+    "name": "MySQL",
+    "keywords": [
+      "Bases de Datos",
+      "SQL",
+      "Database",
+      "Backend"
+    ]
+  },
+  {
+    "name": "Adobe After Effects",
+    "keywords": [
+      "Motion graphics",
+      "Video editing",
+      "Visual effects",
+      "Animation"
+    ]
+  },
+  {
+    "name": "Adobe Premiere Pro",
+    "keywords": [
+      "Video editing",
+      "Post-production",
+      "Multimedia"
+    ]
+  },
+  {
+    "name": "Adobe Photoshop",
+    "keywords": [
+      "Graphic design",
+      "Image editing",
+      "UI/UX design"
+    ]
+  },
+  {
+    "name": "Adobe Lightroom",
+    "keywords": [
+      "Photo editing",
+      "Photography",
+      "Image processing"
+    ]
+  },
+  {
+    "name": "Blender",
+    "keywords": [
+      "3D modeling",
+      "Animation",
+      "Rendering",
+      "Game development"
+    ]
+  },
+  {
+    "name": "Canva",
+    "keywords": [
+      "Graphic design",
+      "Social media",
+      "Presentations"
+    ]
+  },
+  {
+    "name": "Prezi",
+    "keywords": [
+      "Presentations",
+      "Interactive design",
+      "Visual storytelling"
+    ]
+  },
+  {
+    "name": "Adobe XD",
+    "keywords": [
+      "UI/UX design",
+      "Prototyping",
+      "Web design"
+    ]
+  },
+  {
+    "name": "Notion",
+    "keywords": [
+      "Productivity",
+      "Collaboration",
+      "Project management",
+      "Note-taking"
+    ]
+  },
+  {
+    "name": "GitHub",
+    "keywords": [
+      "Version control",
+      "Collaboration",
+      "Source code",
+      "Git"
+    ]
+  },
+  {
+    "name": "GitKraken",
+    "keywords": [
+      "Version control",
+      "Git",
+      "Collaboration",
+      "GUI"
+    ]
+  }
+]
+   
+  ,
   "languages": [
     {
-      "language": "Spanish",
-      "fluency": "Native speaker"
+      "language": "Español",
+      "fluency": "Nativo"
     },
     {
-      "language": "English",
-      "fluency": "Advanced"
+      "language": "Chino",
+      "fluency": "Nativo"
+    },
+    {
+      "language": "Inglés",
+      "fluency": "Nivel Alto"
     }
   ],
-  "interests": [{
-    "name": "Wildlife",
-    "keywords": [
-      "Ferrets",
-      "Unicorns"
-    ]
-  }],
-  "references": [{
-    "name": "Jane Doe",
-    "reference": "Reference…"
-  }],
+  "interests": [
+    {
+      "name": "Tecnología",
+      "keywords": ["Programación", "Diseño", "Fotografía", "Viajes", "Deportes"]
+    }
+  ],
+  "references": [],
   "projects": [
     {
-      "name": "mars.codes",
-      "isActive": true,
-      "description": "Historia interactiva con retos de programación para viajar a Marte",
-      "highlights": [
-        "Elige tu propia aventura",
-        "En desarrollo"
-      ],
-      "url": "https://mars.codes"
+      "name": "Centro Comercial Plaza Río 2 Sitio Web",
+      "startDate": "2025-04-01",
+      "endDate": "2025-06-01",
+      "description": "Desarrollo de un sitio web informativo para el centro comercial Plaza Río 2, con diseño moderno y responsivo usando HTML5, CSS y Bootstrap. Navegación intuitiva, contenido actualizado sobre tiendas, servicios y eventos, optimizado para móviles y accesibilidad.",
+      "highlights": ["HTML", "CSS", "JavaScript", "Bootstrap","JSON","GitKraken","GitHub"],
+      "url": "https://plazario2.netlify.app/"
     },
     {
-      "name": "AdventJS",
-      "isActive": true,
-      "description": "Retos de programación en JavaScript para cada día de diciembre hasta Navidad",
-      "highlights": [
-        "+1 millón de visitas",
-        "Multidioma",
-        "JavaScript & TypeScript"
-      ],
-      "url": "https://adventjs.dev"
-    },
-    {
-      "name": "Codember",
-      "isActive": true,
-      "description": "Juego interactivo de programación con retos y secretos",
-      "highlights": [
-        "+2000 usuarios activos",
-        "Retos para cualquier lenguaje"
-      ],
-      "url": "https://codember.dev"
-    },
-    {
-      "name": "codi.link",
-      "isActive": true,
-      "description": "Playground de código HTML, CSS y JavaScript para compartir",
-      "highlights": [
-        "100k visitas al mes",
-        "Desarrollado por la comunidad"
-      ],
-      "url": "https://codi.link",
-      "github": "https://github.com/midudev/codi.link"
-    },
-    {
-      "name": "Pruebas Técnicas",
-      "isActive": true,
-      "description": "Lista de pruebas técnicas de empresas para practicar programación",
-      "highlights": [
-        "100% gratuito",
-        "+500 soluciones de la comunidad"
-      ],
-      "url": "https://pruebastecnicas.com",
-      "github": "https://github.com/midudev/pruebas-tecnicas"
-    },
-    {
-      "name": "miduConf",
-      "description": "Conferencia de programación en streaming para la comunidad hispanohablante con charlas top",
-      "highlights": [
-        "+15k tickets repartidos",
-        "+50k espectadores en directo"
-      ],
-      "url": "https://miduconf.com"
+      "name": "Warriors of Eazima",
+      "startDate": "",
+      "endDate": "",
+      "description": "Aventura interactiva realizada principalmente con el lenguaje Java. Juego con una interfaz gráfica simple y desarrollo narrativo de personajes.",
+      "highlights": ["Java", "Canva", "SQL", "Gamma","GitKraken","GitHub"],
+      "url": "https://gamma.app/docs/WARRIORS-OF-EAZIMA-II-g2kidspg5ewqvm4"
     }
   ]
 }
