@@ -39,33 +39,50 @@ import { education } from "@cv"
 </Section>
 
 <style>
-  ul {
-    display: flex;
-    flex-direction: column;
-    gap: 32px;
-  }
+ ul {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
 
-  article h3 {
-    font-weight: 500;
-    color: #111;
-  }
+article h3 {
+  font-weight: 600;
+  color: #4aa7d9; /* Azul claro como en el banner */
+  font-size: 1.3rem;
+  margin: 0 0 6px;
+  transition: color 0.3s;
+}
 
-  header {
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-    margin-bottom: 4px;
-  }
+article h3:hover {
+  color: #84c6ff;
+}
 
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 6px;
+  padding-bottom: 4px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+time {
+  color: #b0c4d8;
+  font-size: 0.85rem;
+  min-width: 102px;
+  font-style: italic;
+}
+
+@media (max-width: 700px) {
   time {
-    color: #555;
-    font-size: 0.85rem;
-    min-width: 102px;
+    text-align: right;
+    font-size: 0.8rem;
   }
-
-  @media (width <= 700px) {
-    time {
-      text-align: right;
-    }
+  article h3 {
+    font-size: 1.15rem;
   }
+}
 </style>

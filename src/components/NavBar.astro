@@ -1,0 +1,102 @@
+---
+import { basics } from "@cv"
+const { name, image} = basics
+const navLinks = [
+
+    { name: "Inicio", href: "/" },
+
+    { name: "Proyectos", href: "/projects" },
+
+    { name: "Sobre mí", href: "/about" },
+
+];
+
+---
+
+<nav class="navbar navbar-fixed">
+    <div class="container">
+        <a href="/" class="logo"><img src={image} alt={name} /></a>
+        <ul class="nav-links">
+            {navLinks.map(link => (
+                <li>
+                    <a href={link.href}>{link.name}</a>
+                </li>
+            ))}
+        </ul>
+    </div>
+</nav>
+
+<style>
+.navbar {
+  background: #0d1624; /* Fondo azul oscuro */
+  border-bottom: 2px solid rgba(74, 167, 217, 0.2);
+  padding: 1rem 0;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+}
+
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 1.5rem;
+}
+
+.logo {
+  font-weight: 700;
+  font-size: 1.6rem;
+  color: #4aa7d9; /* Azul claro como en el nombre */
+  text-decoration: none;
+  letter-spacing: 1px;
+  transition: color 0.3s;
+}
+.logo:hover {
+  color: #84c6ff;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 2rem;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-links a {
+  color: #e6f1ff;
+  text-decoration: none;
+  font-size: 1rem;
+  font-weight: 500;
+  transition: color 0.3s, border-bottom 0.3s;
+  padding-bottom: 4px;
+  border-bottom: 2px solid transparent;
+}
+
+.nav-links a:hover {
+  color: #4aa7d9;
+  border-bottom: 2px solid #4aa7d9;
+}
+
+img {
+  aspect-ratio: 1 / 1;
+  width: 80px;
+  margin-bottom: -10px;
+  border-radius: 100px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+@media (max-width: 768px) {
+  .nav-links {
+    gap: 1.2rem;
+  }
+  .logo {
+    font-size: 1.3rem;
+  }
+}
+</style>
