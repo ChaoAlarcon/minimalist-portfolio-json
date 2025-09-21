@@ -39,15 +39,25 @@
       "highlights": []
     }
   ],
-  "volunteer": [],
+  "volunteer": [
+    {
+      "name": "Overseas Community Affairs Council, Taiwan (R.O.C.)",
+      "position": "Profesor de Inglés Voluntario",
+      "url": "https://www.ocac.gov.tw/OCAC/Eng/Pages/VDetail.aspx?nodeid=7849&pid=70544972",
+      "startDate": "2025-07-01",
+      "endDate": "2025-07-31",
+      "summary": "Clases de inglés para estudiantes de primaria en Hsinchu, Taiwán. Preparación de materiales interactivos y actividades lúdicas, adaptando las lecciones a distintos niveles y promoviendo la participación y habilidades comunicativas.",
+      "highlights": []
+    }
+  ],
   "education": [
     {
       "institution": "Instituto Nebrija de Formación Profesional",
       "url": "",
-      "area": "Desarrollo de Aplicaciones Web",
+      "area": "Desarrollo de Aplicaciones Web (DAW)",
       "studyType": "Ciclo Formativo de Grado Superior",
       "startDate": "2024-09-01",
-      "endDate": null,
+      "endDate": "2026-06-30",
       "score": "",
       "courses": []
     }
