@@ -2,59 +2,62 @@
 import { basics } from "@cv"
 const { name, image} = basics
 const navLinks = [
-
-    { name: "Inicio", href: "/" },
-
-    { name: "Proyectos", href: "/projects" },
-
-    { name: "Sobre mí", href: "/about" },
-
+  { name: "Inicio", href: "/" },
+  { name: "Proyectos", href: "/projects" },
+  { name: "Sobre mí", href: "/about" },
 ];
-
 ---
 
-<nav class="navbar navbar-fixed">
-    <div class="container">
-        <a href="/" class="logo"><img src={image} alt={name} /></a>
-        <ul class="nav-links">
-            {navLinks.map(link => (
-                <li>
-                    <a href={link.href}>{link.name}</a>
-                </li>
-            ))}
-        </ul>
-    </div>
+<nav class="navbar navbar-left">
+  <div class="container">
+    <a href="/" class="logo"><img src={image} alt={name} /></a>
+    <ul class="nav-links">
+      {navLinks.map(link => (
+        <li>
+          <a href={link.href}>{link.name}</a>
+        </li>
+      ))}
+    </ul>
+  </div>
 </nav>
 
 <style>
 .navbar {
-  background: #0d1624; /* Fondo azul oscuro */
-  border-bottom: 2px solid rgba(74, 167, 217, 0.2);
-  padding: 1rem 0;
+  background: #0d1624;
+  border-right: 2px solid rgba(74, 167, 217, 0.2);
+  padding: 2rem 0 2rem 0;
   position: fixed;
   top: 0;
   left: 0;
-  width: 100%;
+  height: 100vh;
+  width: 220px;
   z-index: 1000;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+  box-shadow: 4px 0 12px rgba(0, 0, 0, 0.4);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .container {
-  max-width: 1100px;
-  margin: 0 auto;
+  width: 100%;
   display: flex;
+  flex-direction: column;
   align-items: center;
-  justify-content: space-between;
-  padding: 0 1.5rem;
+  justify-content: flex-start;
+  height: 100%;
 }
 
 .logo {
   font-weight: 700;
   font-size: 1.6rem;
-  color: #4aa7d9; /* Azul claro como en el nombre */
+  color: #4aa7d9;
   text-decoration: none;
   letter-spacing: 1px;
   transition: color 0.3s;
+  margin-bottom: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 .logo:hover {
   color: #84c6ff;
@@ -63,9 +66,12 @@ const navLinks = [
 .nav-links {
   list-style: none;
   display: flex;
+  flex-direction: column;
   gap: 2rem;
   margin: 0;
   padding: 0;
+  width: 100%;
+  align-items: center;
 }
 
 .nav-links a {
@@ -73,9 +79,12 @@ const navLinks = [
   text-decoration: none;
   font-size: 1rem;
   font-weight: 500;
-  transition: color 0.3s, border-bottom 0.3s;
+  transition: color 0.3s, border-right 0.3s;
+  padding-right: 0;
   padding-bottom: 4px;
   border-bottom: 2px solid transparent;
+  width: 100%;
+  text-align: center;
 }
 
 .nav-links a:hover {
@@ -86,17 +95,26 @@ const navLinks = [
 img {
   aspect-ratio: 1 / 1;
   width: 80px;
-  margin-bottom: -10px;
+  margin-bottom: 10px;
   border-radius: 100px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
 }
 
 @media (max-width: 768px) {
-  .nav-links {
-    gap: 1.2rem;
+  .navbar {
+  width: 70px;
+  padding: 1rem 0;
   }
   .logo {
-    font-size: 1.3rem;
+  font-size: 1rem;
+  margin-bottom: 1rem;
+  }
+  .nav-links {
+  gap: 1rem;
+  }
+  .nav-links a {
+  font-size: 0.9rem;
+  padding: 0;
   }
 }
 </style>
