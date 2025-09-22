@@ -1,25 +1,35 @@
 ---
 import { basics } from "@cv"
 const { name, image} = basics
-const navLinks = [
-  { name: "Inicio", href: "/" },
-  { name: "Proyectos", href: "/projects" },
-  { name: "Sobre mí", href: "/about" },
+const navItems = [
+  { name: "Home", href: "#hero" },
+  { name: "About", href: "#about" },
+  { name: "Education", href: "#education" },
+  { name: "Experience", href: "#experience" },
+  { name: "Projects", href: "#projects" },
+  { name: "Skills", href: "#skills" },
+  { name: "Volunteer", href: "#volunteer" }
 ];
 ---
 
-<nav class="navbar navbar-left">
+<nav class="navbar">
   <div class="container">
-    <a href="/" class="logo"><img src={image} alt={name} /></a>
+    <div class="logo">
+      <a href="/" class="logo"><img src={image} alt={name} /></a>
+    </div>
     <ul class="nav-links">
-      {navLinks.map(link => (
-        <li>
-          <a href={link.href}>{link.name}</a>
-        </li>
+      {navItems.map(item => (
+        <li><a href={item.href}>{item.name}</a></li>
       ))}
     </ul>
   </div>
 </nav>
+
+<ul class="nav-links" id="nav-links">
+  
+</ul>
+
+
 
 <style>
 .navbar {
